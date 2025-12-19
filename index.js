@@ -21,3 +21,9 @@ function multiply(a, b) {
     return a * b;
 }
 console.log(multiply(5, 7));
+//union types
+var myVar;
+myVar = "Hello";
+console.log(myVar);
+myVar = 100;
+console.log(myVar);

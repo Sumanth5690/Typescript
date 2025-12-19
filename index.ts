@@ -37,3 +37,14 @@ function multiply(a:number,b:number=4){
     return a*b;
 }
 console.log(multiply(5,7));
+
+//union types
+
+
+let myVar:String | number;
+
+myVar="Hello";
+console.log(myVar);
+
+myVar=100;
+console.log(myVar);
