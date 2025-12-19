@@ -17,3 +17,15 @@ const person:{
     salary:5000
 };
 console.log(person);
+
+//type annotaion with function
+
+
+const a:number=10;
+const b:number=20;
+console.log(add(a,b));
+
+
+function add(a:number,b:number):number{
+    return a+b;
+}
