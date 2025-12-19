@@ -29,3 +29,11 @@ console.log(add(a,b));
 function add(a:number,b:number):number{
     return a+b;
 }
+
+
+//with default parameters
+
+function multiply(a:number,b:number=4){
+    return a*b;
+}
+console.log(multiply(5,7));

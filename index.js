@@ -15,3 +15,9 @@ console.log(add(a, b));
 function add(a, b) {
     return a + b;
 }
+//with default parameters
+function multiply(a, b) {
+    if (b === void 0) { b = 4; }
+    return a * b;
+}
+console.log(multiply(5, 7));
